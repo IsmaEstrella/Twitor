@@ -8,7 +8,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-// Creamos dos variable una se va a exportar y la otra de usa interno
+// Creamos dos variable una se va a exportar y la otra de uso interno
 // mongoC Es donde es la conexion de la base de datos.
 var MongoCN = ConectarBD()
 var clientOpions = options.Client().ApplyURI("mongodb+srv://ismaduarte:Iduarte16@cluster0.dvax7ee.mongodb.net/?retryWrites=true&w=majority")
